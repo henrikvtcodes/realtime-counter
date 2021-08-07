@@ -1,4 +1,1 @@
-@font-face {
-    font-family: "Whitney";
-    src: url('whitneymedium.otf') format('opentype')
-}
+@import 'https://rsms.me/inter/inter.css';
