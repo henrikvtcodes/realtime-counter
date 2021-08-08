@@ -1,0 +1,46 @@
+@import './fonts/fonts.css';
+
+body {
+    font-family: Inter;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* GRID CLASSES */
+main.container {
+    display: grid;
+    grid-template-columns: [line1] 10% [line2] auto [line3] 10% [line4];
+    grid-template-rows: [top] auto [mid] auto [bottom];
+}
+
+span.child {
+    /* background-color: red; */
+
+    text-align: center;
+
+    grid-column-start: line2;
+    grid-column-end: line3;
+    grid-row-start: top;
+    grid-row-end: mid;
+}
+
+div.child { 
+    /* background-color: blue; */
+
+    align-items: center;
+    
+    grid-column-start: line2;
+    grid-column-end: line3;
+    grid-row-start: mid;
+    grid-row-end: bottom;
+}
+
+/* GENERAL STYLES */
+h1.title {
+    text-align: center;
+}
+
+button.button {
+
+}
