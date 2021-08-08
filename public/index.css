@@ -36,6 +36,13 @@ div.child {
     grid-row-end: bottom;
 }
 
+.button {
+    height: 35px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /* GENERAL STYLES */
 h1.title {
     text-align: center;
@@ -43,4 +50,8 @@ h1.title {
 
 button.button {
 
+}
+
+footer {
+    text-align: center;
 }
