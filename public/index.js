@@ -1,5 +1,3 @@
-
-
 // COUNT FUNCS
 let counter = document.getElementById("count")
 let count = 0
@@ -22,6 +20,8 @@ decrement.addEventListener("click", ()=>{
     updateDisplay();
 });
 
-function pushChange(){
+// WEBSOCKET COMMUNICATIONS
 
+function pushChange(){
+    
 }

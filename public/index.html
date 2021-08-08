@@ -9,11 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Local File Links-->
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
     <script defer type="text/javascript" src="index.js"></script>
 
-    <!-- Libraries -->
-
+    <!-- Libraries / External -->
+    
+    <!-- Font import -->
+    <style>
+        @import 'https://rsms.me/inter/inter.css';
+        body {
+            font-family: Inter;
+        }
+    </style>
   </head>
 
   <body>
@@ -24,11 +31,12 @@
 
     <main class="container">
         <span class="child" id="countbox">
-            <h2 id="count"></h2>
+            <h1 id="count"></h1>
         </span>
         <div class="child" id="buttons">
-          <button class="button" id="inc"> Increment </button>
-          <button class="button" id="dec"> Decrement </button>
+          <button class="button" id="inc"> 👆 Increment 👆 </button>
+          <br>
+          <button class="button" id="dec"> 👇 Decrement 👇 </button>
         </div>
     </main>
 
