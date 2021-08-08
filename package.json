@@ -1,0 +1,12 @@
+{
+  "name": "realtime-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/henrikvtcodes/realtime-counter.git",
+  "author": "henrikvtcodes <22358337+henrikvtcodes@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
