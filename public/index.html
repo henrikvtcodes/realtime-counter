@@ -10,7 +10,7 @@
 
     <!--Local File Links-->
     <link rel="stylesheet" href="style/index.css" />
-    <script defer type="text/javascript" src="scripts/main.js"></script>
+    <script defer type="text/javascript" src="javascript/main.js"></script>
     <link rel="icon" type="image/png" href="images/henriklogo.png">
 
     <!-- Libraries / External -->
@@ -40,6 +40,17 @@
           <br>
           <button class="button" id="dec"> 👇 Decrement 👇 </button>
         </div>
+          <div class="status-child">
+            <h3> CONNECTION STATUS </h3>
+            <h4 id="connectbool">INACTIVE</h4>
+
+            <p>
+              You have been connected for: <b><span id="connecttime">hh:mm:ss</span></b>
+              <br>
+              There are <b><span id="connectno">0</span></b> other users connected.
+            </p>
+            
+          </div>
     </main>
 
     <hr />

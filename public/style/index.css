@@ -1,11 +1,13 @@
-// PAGE STYLES
+/* PAGE STYLES */
 body {
     font-family: Inter;
 }
+
+
 /* GRID CLASSES */
 main.container {
     display: grid;
-    grid-template-columns: [line1] 10% [line2] auto [line3] 10% [line4];
+    grid-template-columns: [line1] 25% [line2] auto [line3] 25% [line4];
     grid-template-rows: [top] auto [mid] auto [bottom];
 }
 
@@ -31,6 +33,18 @@ div.child {
     grid-row-end: bottom;
 }
 
+div.status-child { 
+    /* background-color: blue; */
+
+    align-items: center;
+    text-align: center;
+    
+    grid-column-start: line1;
+    grid-column-end: line2;
+    grid-row-start: top;
+    grid-row-end: bottom;
+}
+
 .button {
     margin:0 auto;
     display:block;
@@ -40,6 +54,7 @@ div.child {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 
 /* GENERAL STYLES */
 h1.title {
@@ -51,4 +66,24 @@ button.button {
 
 footer {
     text-align: center;
+}
+
+div.status-child h3 { 
+    /* background-color: blue; */
+
+    text-decoration: underline;
+}
+
+div.status-child p { 
+    /* background-color: blue; */
+    font-size: 11.5px;
+}
+
+#connectbool {
+    color: red;
+    padding-top: 0px;
+}
+
+#connecttime {
+    font-weight: bold;
 }
